@@ -1,0 +1,60 @@
+{
+    "resourceCheckUrl":"http://10.19.54.56/lieyanzhetian/versions/{resourceVer}.json",
+    "rechargeChannelUrl":"http://10.19.54.56/lieyanzhetian/cz.html",
+    "gameNoticeUrl":"http://10.19.54.56/lieyanzhetian/gameNoticeUrl.php",
+    "gameNoticeListUrl":"http://10.19.54.56/lieyanzhetian/gameNoticeListUrl.php",
+    "servicesUrl":"http://10.19.54.56/lieyanzhetian/servicesUrl.php",
+    "resVer":
+    {
+        "version":"1.0.0.1",
+        "baseUrl": "http://10.19.54.56/lieyanzhetian/zpk/base/base_[resVer]_[format].zpk",
+        "extendUrl": "http://10.19.54.56/lieyanzhetian/zpk/extend/extend_[resVer]_[format].zpk",
+        "pvr":
+        {
+           "baseMD5":"6892BBF2BA8205797C6468E3D937F922",
+           "extendMD5":"A5D76F8C3CE1E1456A08DC63E765CEE6"
+        }
+    },
+    "serversList": [
+        {
+            "id": 1,
+            "name": "烈焰遮天-电信",
+            "port": 5555,
+            "ip": "10.19.54.57",
+            "state": 2,
+            "orders": 8,
+            "sign": 0,
+            "isRecommend": 1,
+            "startTime": "Jan 2, 2015 10:00:00 AM",
+            "openTime": 1051700000000,
+            "clientVer": "0.0.9.1",
+            "clientMiniVer": "0.0.4.0",
+            "clientUpdateUrl": "http://10.19.54.56/lieyanzhetian/apk/{gameKey}_{qdKey}_{version}.apk",
+            "currentResourceVer": "0.0.0.1",
+            "iosVer": "0.0.9.1",
+            "iosMiniVer": "0.0.4.0",
+            "currentMainVer": 1,
+            "transferServerId": 0
+        },
+        {
+            "id": 2,
+            "name": "遮天烈焰-网通",
+            "port": 5555,
+            "ip": "10.19.54.57",
+            "state": 2,
+            "orders": 8,
+            "sign": 0,
+            "isRecommend": 1,
+            "startTime": "Jan 2, 2015 10:00:00 AM",
+            "openTime": 1051700000000,
+            "clientVer": "0.0.9.1",
+            "clientMiniVer": "0.0.4.0",
+            "clientUpdateUrl": "http://10.19.54.56/lieyanzhetian/apk/{gameKey}_{qdKey}_{version}.apk",
+            "currentResourceVer": "0.0.0.1",
+            "iosVer": "0.0.9.1",
+            "iosMiniVer": "0.0.4.0",
+            "currentMainVer": 1,
+            "transferServerId": 0
+        }
+    ]
+ }
