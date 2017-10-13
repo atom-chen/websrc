@@ -58,7 +58,7 @@ if ($type != "register"){
 // 要先检查帐号和密码等字符串的合法性
 //---------------------------------------
 
-$mysqli = new mysqli('10.19.54.57', 'root', 'mypassword', 'lieyanzhetian_passport');
+$mysqli = new mysqli('mysql', 'root', 'mypassword', 'lieyanzhetian_passport');
 if ($mysqli->connect_error) {
     die('Connect Error (' . $mysqli->connect_errno . ') '
             . $mysqli->connect_error);
@@ -107,7 +107,7 @@ else if ($field->COUNT == 0) {
 // 处理验证
 //---------------------------------------
 // 验证并获取帐号信息
-$sql = "SELECT COUNT(*) AS COUNT, userId from user WHERE userName='".$userName."' and passWord='".$passWord."'";
+$sql = "SELECT COUNT(*) AS COUNT, userId from user WHERE userName='".$userName."' and passWord='".$passWord."' group by userId";
 $result = $mysqli->query($sql);
 $field = $result->fetch_object();
 if ($field->COUNT != 1) {

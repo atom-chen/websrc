@@ -8,7 +8,7 @@ include "top.php"
   $.ajaxSetup({
   contentType: "application/x-www-form-urlencoded; charset=utf-8"
   });
-  $.post("http://127.0.0.1/game/services?action=mail", {mailType:$("#mailType").val(),theme:$("#theme").val(),content:$("#content").val(),playerMinLevel:$("#playerMinLevel").val(),playerMaxLevel:$("#playerMaxLevel").val(),gold:$("#gold").val(),coin:$("#coin").val(),bindGold:$("#bindGold").val(),item:$("#item").val(),toPlayerType:$("#toPlayerType").val(),toPlayer:$("#toPlayer").val(),effectBeginTime:$("#effectBeginTime").val(),effectEndTime:$("#effectEndTime").val(),tstamp:$("#tstamp").val(),sign:$("#sign").val()},function(data)
+  $.post("http://lyzt.luanhailiang.cn:8080/game/services?action=mail", {mailType:$("#mailType").val(),theme:$("#theme").val(),content:$("#content").val(),playerMinLevel:$("#playerMinLevel").val(),playerMaxLevel:$("#playerMaxLevel").val(),gold:$("#gold").val(),coin:$("#coin").val(),bindGold:$("#bindGold").val(),item:$("#item").val(),toPlayerType:$("#toPlayerType").val(),toPlayer:$("#toPlayer").val(),effectBeginTime:$("#effectBeginTime").val(),effectEndTime:$("#effectEndTime").val(),tstamp:$("#tstamp").val(),sign:$("#sign").val()},function(data)
   {
    alert("操作完成");
   }
